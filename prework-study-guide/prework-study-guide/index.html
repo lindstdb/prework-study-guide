@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <img src="./assets/bowtie-cat.png" id="cat" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
-<<<<<<< HEAD
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
@@ -56,7 +57,15 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here.</li>
+          <li>Cascading Style Sheets, programming language used by developers to define how webpage content is presented to users.CSS defines the color, aesthetics, visual layout, and organization. We use CSS to define style rules for specific elements of an HTML page and format them using a wide range of style options.</li>
+          <li>Inline CSS, apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only.</li>
+          <li>Internal Style Sheet, contains CSS rules for the webpage in the head section of the HTML file.</li>
+          <li>External CSS style sheet, allows developers to keep all their CSS rukes in a separate file, which makes design changes easier.</li>
+          <li>Separation of concerns, separating code into different files based on use.</li>
+          <li>Declarations, containstwo important components; the CSS property we want to apply and the value of the property.</li>
+          <li>Margin, how much space we want around the outside of an element.</li>
+          <li>Padding, adds space around the content inside an element.</li>
+          <li>DRY, Do not repeat yourself, a coding principal that encourages developers to resue or share pieces of code in order to redue the number of lines of code that need to be written, or maintained.</li>
         </ul>
       </section>
 
@@ -65,25 +74,73 @@
         <ul>
           <li>Git Status, checks what branch we are currently on.</li>
           <li>Git Checkout -b branch-name, creates a new branch and switches to it.</li>
+          <li>Bash=Shell</li>
+          <li>pwd, print working directory</li>
+          <li>cd, change directory.</li>
+          <li>ls, shows a list of files and folders.</li>
+          <li>cd .., goes one step backwards in the directory.</li>
+          <li>mkdir, make a directory.</li>
+          <li>touch, create a new file.</li>
+          <li>start, opens file.</li>
+          <li>SSH Key, access credential for the secure shell network protocol.</li>
+          <li>MVP, minimal viable product.</li>
+          <li>Repo, every project on Github is called a repository, folder that contains all of the files and revision history.</li>
+          <li>Branch, workspace where you can make changes that dont affect the live site.</li>
+          <li>Markdown, the way content files are formatted in Github. A way to write for the web using plain text, easily converts to HTML. Use .md file extension.</li>
+          <li>Commit changes, saving a new version of a file youre working on whenever you add, edit, or delete a file.</li>
+          <li>Pull request, asking for changes on a branch to merge into another branch. Way to discuss and review your work with others.</li>
+          <li>Merge, when a PR is approved changes are "pulled in" ormerged into a main branch. Changes publish/deploy to the live site once this happens.</li>
+          <li>Issue, way to report new tasks or content fixes, track progress on a project board, open an issue for a new task and close once done.</li>
+          <li>Integrated Development Environment, type of software used by developers that combines many of the features needed by developers to do their work on a single interface, known as a graphical user interface GUI.</li>
         </ul>
       </section>
 
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here.</li>
+          <li>A Variable is a named container that allows us to store data in our code.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>JavaScript, is a programming language that adds interactivity to your website.</li>
+          <li>Application Programming Interfaces, API, built into we browsers, providing functionality such asdynamically creating HTML and setting CSS styles; collecting and manipulating a video stream from a users webcam, or generating 3D graphics and audio samples.</li>
+          <li>Third Party API, allow developers to incorporate funcionality in sites from other content providers, such, as, Twitter or Facebook.</li>
+          <li>Third party frameworks and libraries, can be applied to HTML to accelerate the work of building sites and applications.</li>
+          <li>Var, used to describe a variable.</li>
+          <li>=, assignment operator to assign the specific datathat we want stored in our variable.</li>
+          <li>Each line of JavaScript ends with a semicolon.</li>
+          <li>Console.log, output a message to the web consoleby creating an argument.</li>
+          <li>Control flow, is the order in which a computer executes code in a script. In JavaScript, code runs from the top of the page, to the bottom of the page.</li>
+          <li>If statement, a way of introducing desicion-making into our code. Code will only execute if the statement meets a condition, or is true.</li>
+          <li>Else if, used if there is more than one condition.</li>
+          <li>The Strict Equality Operator, ===, checks to see if two values are equal, and returns a Boolean result "true" if equal, or "false" if not equal.</li>
+          <li>Array, a single variable that is used to hold a group of data.</li>
+          <li>To work with individual data items inside an array, we need the location of the data item in the array. This location is identified with a unique number called an index. Using each piece of datas index, or location number, we can access individual data inside the array.</li>
+          <li>Arrays are zero-indexed and sequential. The first item in any array has an index of 0 not 1. The indices, or location identifiers, will always be whole numbers that increase by 1 each time.</li>
+          <li>For loop, uses the predictable pattern of indices to perfeorm a task on all the items in an array by allowing a single code block to be executed over, and over.</li>
+          <li>The length of an array can be found by using the built in, length, property.</li>
+          <li>A for loop contains three important statements;</li>
+          <li>The first statement determines the starting point for our loop. Scince we want to start at the beginning of the array, we declare a variable of "x" and give it a value of "0".</li>
+          <li>The second statement is the condition. As long as the number in the variable "x" is less then the length of the array, the loop will keep running.</li>
+          <li>The final statement is what allows the array to iterate over each item. Since indices follow a predictable pattern, we know the number increases by 1 each time. The code "x++" is a shortcut way of writting x+1. Now every time you code loops "x" will increase by 1.</li>
+          <li>Commenting out code, makes it inactive without deleting it, just in case you need it later. Put /* before and */ after the block of code.</li>
+          <li>OOP, object oriented programming.</li>
+          <li>Function, A function is different from a "for loop" or "conditional statement" because funtions do not automatically execute when the JavaScript file is run. A funtions name is followed by ().</li>
         </ul>
+      </section>
+
+      <section class="card" id="portfolio-section">
+        <h2>Portfolio</h2>
+        <h4>Random Recipe Generator</h4>
+         <img src="c:\Users\linds\bootcamp\Project-1\joshua\Whats4Dinner.gif">
+        <a href="#">https://lindstdb.github.io/Whats-4-Dinner/</a>"
       </section>
     </main>
 
 
-=======
       <!-- Student code goes here -->
     </main>
-
->>>>>>> 61ee968d5b6fb8f610d95ed420feaa805f4249f9
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
